@@ -1,39 +1,38 @@
-.w3l-welcome-left {
+.myfarmclass {
     text-align: center;
 }
 
-.w3l-welcome-left h2,
-.agileinfo-services-left h3,
-.w3l-about-heading h2 {
+.myfarmclass h2,
+.service-left h3 {
     color: #b3bf06;
     font-size: 3em;
     margin: 0;
     font-family: 'Playball', cursive;
 }
 
-.w3l-welcome-left h2 span {
+.myfarmclass h2 span {
     display: block;
     color: #212121;
 }
 
-.w3l-welcome-left p {
+.myfarmclass p {
     color: #999999;
     font-size: .9em;
     margin: 2em 0 0 0;
     line-height: 1.8em;
 }
 
-.w3l-welcome-right-grids {
+.rightgridwelcome {
     position: relative;
 }
 
-.w3l-welcome-right-img img,
-.w3l-welcome-right-img1 img {
+.rightgridwelcomeimg img,
+.rightgridwelcomeimg1 img {
     width: 100%;
     box-shadow: 0 -1px 3px rgb(107, 107, 107), 0 1px 2px rgba(0, 0, 0, .24);
 }
 
-.w3l-welcome-right-img1 {
+.rightgridwelcomeimg1 {
     position: absolute;
     top: 80px;
     left: 140px;
@@ -41,20 +40,20 @@
 }
 
 @media(max-width:1080px) {
-    .w3l-welcome-right-img1 {
+    .rightgridwelcomeimg1 {
         top: 30px;
     }
 
-    .w3l-welcome-right-img1 {
+    .rightgridwelcomeimg1 {
         top: 40px;
     }
 
-    .w3l-welcome-right-img {
+    .rightgridwelcomeimg {
         float: left;
         width: 40%;
     }
 
-    .w3l-welcome-right-img1 {
+    .rightgridwelcomeimg1 {
         top: 40px;
         float: left;
         width: 60%;
@@ -63,7 +62,7 @@
 
 @media(max-width:667px) {
 
-    .w3l-welcome-right-img1 {
+    .rightgridwelcomeimg1 {
         top: 30px;
     }
 }
@@ -73,7 +72,7 @@
         padding: 2em 0;
     }
 
-    .w3l-welcome-right-img1 {
+    .rightgridwelcomeimg1 {
         left: 80px;
         top: 17px;
     }
@@ -102,54 +101,54 @@
     background: #3b363d;
 }
 
-.agileinfo-services-left h3 span {
+.service-left h3 span {
     color: #FFFFFF;
 
 }
 
-.agileinfo-services-left {
+.service-left {
     margin-top: 150px;
 }
 
-.agileinfo-services-left p {
+.service-left p {
     color: #999999;
     font-size: .9em;
     margin: 2em 0 0 0;
     line-height: 1.8em;
 }
 
-.agileinfo-services-right {
+.myfarmclassservice {
 
     background: #FFF;
 
 }
 
-.w3-agileits-services-grid {
+.myfarmclassservicegrid {
     padding: 1em;
 }
 
-.w3-agileits-services-grid i.fa.fa-cogs,
-.w3-agileits-services-grid i.fa.fa-comments,
-.w3-agileits-services-grid i.fa.fa-heart,
-.w3-agileits-services-grid i.fa.fa-plane,
-.w3-agileits-services-grid i.fa.fa-paper-plane,
-.w3-agileits-services-grid i.fa.fa-road {
+.myfarmclassservicegrid i.fa.fa-cogs,
+.myfarmclassservicegrid i.fa.fa-comments,
+.myfarmclassservicegrid i.fa.fa-heart,
+.myfarmclassservicegrid i.fa.fa-plane,
+.myfarmclassservicegrid i.fa.fa-paper-plane,
+.myfarmclassservicegrid i.fa.fa-road {
     color: #bdcd00;
     font-size: 2em;
 }
 
-.agileinfo-services-right {
+.myfarmclassservice {
     margin: 2em 0 2em 0;
 }
 
-.w3-agileits-services-grid h4 {
+.myfarmclassservicegrid h4 {
     color: #212121;
     font-size: 1em;
     font-weight: 600;
     margin: 1em 0;
 }
 
-.w3-agileits-services-grid p {
+.myfarmclassservicegrid p {
     color: #999999;
     font-size: .9em;
     margin: 0;
